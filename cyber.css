@@ -106,29 +106,39 @@ html[cybercss] {
 }
 
 [cybercss] button[purple] {
-  background: var(--color-primary);
+  /* background: var(--color-primary); */
+  background: #b741ffd9;
 }
 
 [cybercss] button[blue] {
-  background: var(--color-secondary);
+  /* background: var(--color-secondary); */
+  background: #3ca7ffb8
 }
 
 [cybercss] button[green] {
-  background: var(--color-tertiary);
+  /* background: var(--color-tertiary); */
+  background: #10ff0094;
 }
 
 [cybercss] button[red] {
-  background: var(--color-quaternary);
+  /* background: var(--color-quaternary); */
+  background: #ff2525c4;
 }
 
 [cybercss] button[white] {
-  background: var(--color-quinary);
+  /* background: var(--color-quinary); */
   color: #000000c2;
+  background: #ffffffc9;
+  text-shadow: 0 0 1px;
+  font-weight: 500;
 }
 
 [cybercss] button[yellow] {
-  background: #ffff00d1;
+  /* background: #ffff00d1; */
   color: #0000009c;
+  background: #ffff00c4;
+  text-shadow: 0 0 1px;
+  font-weight: 500;
 }
 
 [cybercss] button[sm] {
