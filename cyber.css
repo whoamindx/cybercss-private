@@ -22,7 +22,7 @@
   --div-claro: #2e3136;
   --div-escuro: #232324;
   --body-color: #eee7dc;  
-  --color-primary: #b741ff; /* #302667 */
+  --color-primary: #b741ff;
   --color-secondary: #3ca7ff;
   --color-tertiary: #10ff00;
   --color-quaternary: #ff2525;
@@ -101,15 +101,14 @@ html[cybercss] {
   border: none;
   letter-spacing: .5px;
   font-size: 1.2rem;
-  text-shadow: 0 0 10px;
-  outline: none;
+  transition: .2s box-shadow;
+  border-radius: 3px;
 }
 
 [cybercss] button[purple] {
   /* background: var(--color-primary); */
   background: #b741ffd9;
 }
-
 [cybercss] button[blue] {
   /* background: var(--color-secondary); */
   background: #3ca7ffb8
@@ -135,8 +134,8 @@ html[cybercss] {
 
 [cybercss] button[yellow] {
   /* background: #ffff00d1; */
-  color: #0000009c;
-  background: #ffff00c4;
+  color: #00000085;
+  background: #ffff00d4;
   text-shadow: 0 0 1px;
   font-weight: 500;
 }
@@ -149,15 +148,47 @@ html[cybercss] {
   padding: 11px 18px;
 }
 
-[cybercss] button:click {
-  
+[cybercss] button[icon] {
+  padding: 0;
+  width: 45px;
+  height: 45px;
+  text-shadow: 0 0 3px;
+  display: inline-flex;
+  justify-content: center;
+}
+[cybercss] button[icon] i {
+  font-size: 2rem;
 }
 
+[cybercss] button[icon][sm] {
+  width: 35px;
+  height: 35px;
+}
+[cybercss] button[icon][sm] i {
+  font-size: 1.6rem;
+}
 
+[cybercss] button[icon][lg] {
+  width: 55px;
+  height: 55px;
+}
+[cybercss] button[icon][lg] i{
+  font-size: 2.5rem;
+}
 
+[cybercss] button:hover {
+  box-shadow: 0 0 10px 0px #000000;
+  transition: .2s box-shadow;
+}
 
+[cybercss] button:active {
+  background: #00000010;
+  color: white;
+}
 
-
+[cybercss] button:focus {
+  outline: 0;
+}
 
 
 
