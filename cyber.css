@@ -4,3 +4,169 @@
  * Copyright (c) 2019 whoamindx
  * Licensed under the MIT license
  */
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200');
+
+
+/* Reset */
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+:root {
+  --body-background-claro: #262728;
+  /* --body-background-escuro: #232324; */
+  --body-background-escuro: #292a2d;
+  --div-claro: #2e3136;
+  --div-escuro: #232324;
+  --body-color: #eee7dc;  
+  --color-primary: #b741ff; /* #302667 */
+  --color-secondary: #3ca7ff;
+  --color-tertiary: #10ff00;
+  --color-quaternary: #ff2525;
+  --color-quinary: #fbf7f1;
+}
+
+html[cybercss] {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+[cybercss] body {
+  color: var(--body-color);
+  /* background: #2e3136; */
+  background: var(--body-background-escuro);
+  font-family: 'Work Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 1.6em;
+  font-weight: 200;
+  letter-spacing: .01em;
+  line-height: 1.6;
+}
+
+
+/* Heading */
+[cybercss] h1 {
+  font-size: 4.6rem;
+  line-height: 1.2;
+}
+
+[cybercss] h2 {
+  font-size: 3.6rem;
+  line-height: 1.25;
+}
+
+[cybercss] h3 {
+  font-size: 2.8rem;
+  line-height: 1.3;
+}
+
+[cybercss] h4 {
+  font-size: 2.2rem;
+  letter-spacing: -.08rem;
+  line-height: 1.35;
+}
+
+[cybercss] h5 {
+  font-size: 1.8rem;
+  letter-spacing: -.05rem;
+  line-height: 1.5;
+}
+
+[cybercss] h6 {
+  font-size: 1.6rem;
+  letter-spacing: 0;
+  line-height: 1.4;
+}
+
+/* Container */
+[cybercss] [container] {
+  margin: 0 auto;
+  max-width: 112.0rem;
+  padding: 0 2.0rem;
+  position: relative;
+  width: 100%;
+}
+
+
+/* Buttton */
+[cybercss] button {
+  padding: 8px 15px;
+  margin: 0;
+  color: #fff;
+  background: #ffffff35;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: .5px;
+  font-size: 1.2rem;
+  text-shadow: 0 0 10px;
+  outline: none;
+}
+
+[cybercss] button[purple] {
+  background: var(--color-primary);
+}
+
+[cybercss] button[blue] {
+  background: var(--color-secondary);
+}
+
+[cybercss] button[green] {
+  background: var(--color-tertiary);
+}
+
+[cybercss] button[red] {
+  background: var(--color-quaternary);
+}
+
+[cybercss] button[white] {
+  background: var(--color-quinary);
+  color: #000000c2;
+}
+
+[cybercss] button[yellow] {
+  background: #ffff00d1;
+  color: #0000009c;
+}
+
+[cybercss] button[sm] {
+  padding: 5px 12px;
+}
+
+[cybercss] button[lg] {
+  padding: 11px 18px;
+}
+
+[cybercss] button:click {
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[cybercss] #teste {
+  width: 200px;
+  height: 200px;
+  background: var(--div-claro);
+}
