@@ -5,7 +5,7 @@
  * Licensed under the MIT license
  */
 
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:200');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 
 /* Reset */
@@ -38,7 +38,7 @@ html[cybercss] {
   color: var(--body-color);
   /* background: #2e3136; */
   background: var(--body-background-escuro);
-  font-family: 'Work Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: 1.6em;
   font-weight: 200;
   letter-spacing: .01em;
@@ -103,25 +103,30 @@ html[cybercss] {
   font-size: 1.2rem;
   transition: .2s box-shadow;
   border-radius: 3px;
+  text-shadow: 0 0 20px #ffffffe8;
 }
 
 [cybercss] button[purple] {
   /* background: var(--color-primary); */
   background: #b741ffd9;
+  text-shadow: 0 0 20px #ffffffe8;
 }
 [cybercss] button[blue] {
   /* background: var(--color-secondary); */
-  background: #3ca7ffb8
+  background: #3ca7ffb8;
+  text-shadow: 0 0 20px #ffffffe8;
 }
 
 [cybercss] button[green] {
   /* background: var(--color-tertiary); */
   background: #10ff0094;
+  text-shadow: 0 0 20px #ffffffe8;
 }
 
 [cybercss] button[red] {
   /* background: var(--color-quaternary); */
   background: #ff2525c4;
+  text-shadow: 0 0 20px #ffffffe8;
 }
 
 [cybercss] button[white] {
@@ -184,15 +189,49 @@ html[cybercss] {
 [cybercss] button:active {
   background: #00000010;
   color: white;
+  text-shadow: 0 0 20px #ffffffe8;
 }
 
 [cybercss] button:focus {
-  outline: 0;
+  outline: 1px solid #ffffff66;
+  outline-offset: -5px;
 }
 
+[cybercss] button[white]:focus, [cybercss] button[yellow]:focus {
+  outline: 1px solid #00000061;
+  outline-offset: -5px;
+}
 
+[cybercss] a[link] {
+  /* color: var(--color-quaternary); */
+  color: var(--body-color);
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px solid var(--body-color);
+  padding-bottom: 3px;
+}
 
+[cybercss] a[link]:hover {
+  color: var(--color-quaternary);
+  border-color: var(--color-quaternary);
+}
 
+[cybercss] a[download] .material-icons {
+  position: relative;
+  top: 3px;
+  font-size: 1.8rem;
+  background: var(--body-color);
+  color: var(--body-background-escuro);
+  left: 2px;
+  padding: 0px 1px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+[cybercss] a[download]:hover .material-icons {
+  background: var(--color-quaternary);
+  color: var(--body-background-escuro);
+}
 
 
 
