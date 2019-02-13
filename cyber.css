@@ -165,9 +165,14 @@ html[cybercss] {
         outline-offset: -5px;
       }
 
-        [cybercss] button[white]:focus{
+      [cybercss] button[white]:active,
+      [cybercss] button[yellow]:active {
+        border: 1px solid #00000010;
+      }
+
+        /* [cybercss] button[white]:focus{
           outline: 1px solid #ffffff52;
-        }
+        } */
         [cybercss] button[yellow]:focus {
           outline: 1px solid #ffff0075;
         }
@@ -181,12 +186,12 @@ html[cybercss] {
           background: #00000010;
           color: white;
           text-shadow: 0 0 20px #ffffffe8;
-        }
+        } */
 
         [cybercss] button[yellow]:hover {
           box-shadow: 0 0 10px 0px #000000;
           transition: .2s box-shadow;
-        } */
+        }
 
         [cybercss] button[yellow]:active {
           background: #00000010;
