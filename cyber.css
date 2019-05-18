@@ -215,6 +215,7 @@ html[cybercss] {
       text-shadow: 0 0 3px;
       display: inline-flex;
       justify-content: center;
+      align-items: center;
     }
       [cybercss] button[icon] i {
         font-size: 2rem;
